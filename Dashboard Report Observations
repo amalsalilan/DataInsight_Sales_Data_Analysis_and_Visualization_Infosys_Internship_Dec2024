@@ -1,0 +1,96 @@
+                   Dashboard Report Observations 
+Title: Baseline Performance Metrics and Data Quality Checks
+ 
+• Total Revenue by Region (Bar Chart):
+•	The revenue distribution across regions:
+o	Central: $4.7M
+o	West: $3.6M
+o	East: $3.4M
+o	South: $3.2M
+
+•	The Central region has the highest revenue, while the South region generated the least.
+Total Revenue by Product Category (Bar Chart):
+•	Categorizes revenue by product type:
+o	Technology: $6.0M
+o	Furniture: $5.2M
+o	Office Supplies: $4.0M
+•	Technology contributes the highest revenue, followed by Furniture and Office Supplies.
+  
+Sum of Unit Price by Product Category (Line Chart):
+•	Analyzing unit price by category:
+o	Technology: $0.37M
+o	Furniture: $0.21M
+o	Office Supplies: $0.17M
+•	Unit price is highest for Technology and lowest for Office Supplies.
+
+Sum of Profit by Region (Bar Chart):
+•	Shows profit contribution per region:
+o	Central: $0.48M
+o	South: $0.42M
+o	East: $0.32M
+o	West: $0.30M
+•	The Central region leads in profit, while the West region contributes the least.
+Sum of Product Base Margin by Product Container (Bar Chart):
+•	Highlights base margin per container type:
+o	Most: Medium (2.0K).
+o	Least: Large (0.4K).
+Total Units Sold by Region (Bar Chart):
+•	Breaks down unit sales across regions:
+o	Central: 70K
+o	West: 50K
+o	East: 48K
+o	South: 47K
+•	The Central region dominates unit sales, with the South region trailing.
+ Sum of Shipping Cost by Region (Pie Chart):
+•	Represents shipping costs:
+o	Central: 21.73K (20.15%)
+o	West: 25.79K (23.92%)
+o	East: 24.2K (22.47%)
+o	South: 25.79K (23.92%)
+•	West and South regions share the highest shipping costs.
+Total Units Sold by Product Container (Bar Chart):
+o	Distribution of units by container type:
+	Small Box: 111K
+	Medium Box: 25K
+	Large Box: 15K
+	Wrap Bag: 14K
+	Others: Lower units.
+o	Small Box is the most used container for shipping products.
+
+
+ 
+Insights:
+1.	Regional Trends:
+o	The Central region excels in both revenue and profit generation. Efforts could be made to improve revenue in the South region.
+o	
+2.	Product Performance:
+o	Technology leads in both revenue and unit price, signifying it as a high-margin category.
+
+3.	Shipping Costs:
+o	Shipping cost distribution is nearly even across regions, with slight peaks in the West and South regions.
+
+4.	Product Containers:
+o	Small Box is the most preferred container, suggesting optimization opportunities for other container types.
+
+Regional Performance Analysis:
+Revenue vs. Profit Correlation:
+The Central region has the highest revenue ($4.7M) but also leads in profit ($0.48M), indicating efficient cost management and high-margin sales.
+The South region, having the lowest revenue ($3.2M), achieves the second-highest profit ($0.42M), suggesting a strong focus on profitability over volume.
+The West and East regions have comparable revenue but differ in profit. Strategies to optimize margins in these regions could improve profitability.
+
+Shipping Costs vs. Revenue:
+•	The South and West regions incur the highest shipping costs ($25.79K each) but generate relatively lower revenue compared to the Central region. This highlights a potential inefficiency in logistics or higher operational costs.
+
+Product Performance Analysis:
+1.	Revenue by Product Category:
+o	Technology contributes the highest revenue ($6.0M) and unit price ($0.37M), making it the top-performing category. Efforts to further enhance sales in this category could yield significant returns.
+o	Office Supplies, despite being the lowest revenue contributor ($4.0M), may have potential for growth through bundling or cross-selling strategies.
+o	
+2.	Base Margin by Product Container:
+o	Medium containers yield the highest product base margin (2.0K), suggesting they are most cost-effective for shipping. A deeper analysis of container usage efficiency could reveal further cost-saving opportunities.
+o	Large containers have a minimal base margin (0.4K), indicating potential underutilization or inefficiencies in usage.
+o	
+3.	Total Units Sold by Product Container:
+o	Small Boxes dominate sales (111K units), showcasing their popularity or suitability for most product types. However, Medium Boxes (25K) and Large Boxes (15K) could be optimized for handling larger or bulkier items.
+ 
+
