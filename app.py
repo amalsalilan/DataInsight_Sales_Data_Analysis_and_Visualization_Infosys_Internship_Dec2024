@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from joblib import load
 from prophet import Prophet
-import plotly.express as px  # Optional if you want to use Plotly
+import plotly.express as px  
 
 
 
@@ -34,7 +34,7 @@ def main():
         model = load("C:\\Users\\91953\\Desktop\\predicted_sales (1).joblib")
     st.sidebar.success("Model loaded successfully.")
 
-    # Sidebar input for the forecast horizon (weeks)
+    # Sidebar input for the forecast horizon (months)
     input_months = st.sidebar.number_input(
         "Forecast horizon (Monthly basis):",
         min_value=1,
@@ -130,10 +130,7 @@ def main():
             template='plotly_white'
         )
 
-        # ----------------------------------------
-        # Fix the range selector to use days instead of "week"
-        # ----------------------------------------
-        fig.update_xaxes(
+            fig.update_xaxes(
             rangeslider_visible=True,
             rangeselector=dict(
                 buttons=list([
