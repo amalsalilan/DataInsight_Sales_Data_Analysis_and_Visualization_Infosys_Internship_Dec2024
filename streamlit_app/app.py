@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load the trained model and encoder
-best_rf = joblib.load("saved/random_forest_model.pkl")
-encoder, feature_names = joblib.load("saved/encoder.pkl")
+best_rf = joblib.load("./saved/random_forest_model.pkl")
+encoder, feature_names = joblib.load("./saved/encoder.pkl")
 
 # Define categorical options for user selection
 order_priority_options = ['Critical', 'High', 'Medium', 'Low']
