@@ -4,8 +4,23 @@ import joblib
 import numpy as np
 
 # Load the trained model and encoder
-best_rf = joblib.load(".streamlit/random_forest_model.pkl")
-encoder, feature_names = joblib.load(".streamlit/encoder.pkl")
+import os
+
+# Define the correct file paths
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "saved", "random_forest_model.pkl")
+ENCODER_PATH = os.path.join(os.path.dirname(__file__), "saved", "encoder.pkl")
+
+@st.cache_resource
+def load_model():
+    return joblib.load(MODEL_PATH)
+
+@st.cache_resource
+def load_encoder():
+    return joblib.load(ENCODER_PATH)
+
+best_rf = load_model()
+encoder, feature_names = load_encoder()
+
 
 # Define categorical options for user selection
 order_priority_options = ['Critical', 'High', 'Medium', 'Low']
